@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Demo02</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="news_subtitle">news</string>
+    <string name="chatroom_subtitle">chatroom</string>
+    <string name="contacts_subtitle">contacts</string>
+    <string name="me_subtitle">me</string>
+    <string name="send_button">Send</string>
+
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    // pull to refresh
+    <string name="pull_to_refresh">pull to refresh</string>
+    <string name="release_to_refresh">on release</string>
+    <string name="refreshing">refreshing…</string>
+    <string name="not_updated_yet">unrefreshed</string>
+    <string name="updated_at">last refreshed %1$s ago</string>
+    <string name="updated_just_now">just refreshed</string>
+    <string name="time_error">time error</string>
+
+</resources>

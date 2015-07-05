@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:columnCount="4" android:rowCount="3"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+    <ImageView android:layout_height="30dp" android:layout_width="90dp" android:layout_columnWeight="1" android:src="@drawable/me_tag"/>
+
+</GridLayout>

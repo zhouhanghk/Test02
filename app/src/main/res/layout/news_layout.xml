@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/news_layout_headline" />
+    <com.examlpe.demo02.RefreshableView
+        android:id="@+id/news_refreshable_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    <ListView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/news_listview">
+    </ListView>
+    </com.examlpe.demo02.RefreshableView>
+
+</LinearLayout>

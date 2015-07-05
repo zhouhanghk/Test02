@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:orientation="vertical"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:background="@drawable/shape_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dp" />
+    <!-- 第三个白框begin -->
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:orientation="horizontal"
+                  android:clickable="true">
+        <ImageView android:layout_height="50dp"
+                   android:layout_width="50dp"
+                   android:paddingLeft="10dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/me_personal_info" />
+        <TextView android:layout_width="280dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:paddingLeft="10dp"
+                  android:text="Personal Information"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/me_item_arrow_right"
+                   android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:background="@drawable/shape_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dp" />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:orientation="horizontal"
+                  android:clickable="true">
+        <ImageView android:layout_height="50dp"
+                   android:layout_width="50dp"
+                   android:paddingLeft="10dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/me_preferences" />
+        <TextView android:layout_width="280dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:paddingLeft="10dp"
+                  android:text="Preferences"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/me_item_arrow_right"
+                   android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:background="@drawable/shape_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dp" />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:orientation="horizontal"
+                  android:clickable="true">
+        <ImageView android:layout_height="50dp"
+                   android:layout_width="50dp"
+                   android:paddingLeft="10dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/me_subscriptions" />
+        <TextView android:layout_width="280dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:paddingLeft="10dp"
+                  android:text="Subscriptions"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/me_item_arrow_right"
+                   android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:background="@drawable/shape_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dp" />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:orientation="horizontal"
+                  android:clickable="true">
+        <ImageView android:layout_height="50dp"
+                   android:layout_width="50dp"
+                   android:paddingLeft="10dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/me_settings" />
+        <TextView android:layout_width="280dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:paddingLeft="10dp"
+                  android:text="Settings"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/me_item_arrow_right"
+                   android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:background="@drawable/shape_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dp" />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:orientation="horizontal"
+                  android:clickable="true">
+        <ImageView android:layout_height="50dp"
+                   android:layout_width="50dp"
+                   android:paddingLeft="10dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/me_tobe_continued" />
+        <TextView android:layout_width="280dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:paddingLeft="10dp"
+                  android:text="To be continued..."/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/me_item_arrow_right"
+                   android:layout_gravity="center"
+                  />
+    </LinearLayout>
+</LinearLayout>

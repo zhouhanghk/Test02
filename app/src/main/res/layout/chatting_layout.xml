@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@drawable/chatting_background4">
+    <include layout="@layout/chatting_layout_headline" />
+
+        <ListView android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:id="@+id/chat_listview"
+                  android:layout_weight="1"
+                  android:transcriptMode="alwaysScroll"
+                  android:divider="@null"
+                  android:listSelector="@android:color/transparent">
+        </ListView>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="45dp"
+                  android:orientation="horizontal"
+      >
+        <EditText android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:id="@+id/send_text"
+                  android:background="@drawable/input"
+                  android:cursorVisible="true"
+            android:drawableLeft="@drawable/chatting_layout_edittext_em"/>
+        <ImageButton android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/send_button"
+                android:text="@string/send_button"
+                     android:background="@drawable/input_circle_normal"
+                     android:src="@drawable/input_send"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
